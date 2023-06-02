@@ -28,7 +28,7 @@ body {
 
 
 .Conteudo{
-    height: 90vh;
+    height: vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,20 +63,22 @@ body {
 }
 
 .PrimeirasImagens img {
-    width: 350px;
-    height: 250px;
+    width: auto;
+    height: 200px;
     border: 8px solid none;
     border-radius: 5%;
 }
 
 .SegundaImagem {
-    text-align: center;
-    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .SegundaImagem img {
-    width: auto;
-    height: 250px;
+    width: 700px;
+    height: 320px;
     border: 8px solid none;
     border-radius: 5%;
 }
@@ -89,7 +91,7 @@ body {
 }
 
 .UltimasImagens img {
-    width: auto;
+    width: 350px;
     height: 250px;
     border: 8px solid none;
     border-radius: 5%;
