@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.ConteudoVisivel{
+.conteudo-visivel{
     height: 400px;
     width: 100%;
     display:flex;
@@ -42,13 +42,13 @@ body {
     gap:40px;
 }
 
-.ConteudoTitulo {
+.conteudo-titulo {
     text-align: center;
     font-family: var(--FontePrimaria);
     font-size: 2.0rem;
 }
 
-.ConteudoTexto {
+.conteudo-texto {
     text-align: center;
     font-family: var(--FonteSecundaria);
     font-size: 1.3rem;
